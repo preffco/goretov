@@ -10,7 +10,7 @@ import Link from "next/link"
 
 export function ContactSection() {
   const [isSubmitted, setIsSubmitted] = useState(false)
-  const [formData, setFormData] = useState({ name: "", task: "" })
+  const [formData, setFormData] = useState({ name: "", contact: "", task: "" })
 
   const handleSubmit = useCallback((e: React.FormEvent) => {
     e.preventDefault()
@@ -53,7 +53,7 @@ export function ContactSection() {
             >
               <Link href="https://t.me/goretov" target="_blank" rel="noopener noreferrer">
                 <MessageCircle className="mr-2 w-4 h-4 sm:w-5 sm:h-5" />
-                Написать
+                Написать в Telegram
               </Link>
             </Button>
           </div>
@@ -98,6 +98,19 @@ export function ContactSection() {
                   placeholder="Как к вам обращаться?"
                   value={formData.name}
                   onChange={handleChange("name")}
+                  required
+                  className="bg-black/5 border-0 focus:ring-2 focus:ring-black/20 rounded-xl h-11 sm:h-12 text-black placeholder:text-black/40 text-base"
+                />
+              </div>
+              <div>
+                <label htmlFor="contact" className="block text-sm font-medium text-black mb-2">
+                  WhatsApp или Telegram
+                </label>
+                <Input
+                  id="contact"
+                  placeholder="Ваш номер телефона или @username"
+                  value={formData.contact}
+                  onChange={handleChange("contact")}
                   required
                   className="bg-black/5 border-0 focus:ring-2 focus:ring-black/20 rounded-xl h-11 sm:h-12 text-black placeholder:text-black/40 text-base"
                 />

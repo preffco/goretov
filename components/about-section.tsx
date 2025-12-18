@@ -115,11 +115,6 @@ export function AboutSection() {
           {/* Left Column */}
           <div className="lg:col-span-5">
             <div className="lg:sticky lg:top-32">
-              <span className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-[#FACC15]/10 text-[#FACC15] text-xs sm:text-sm font-medium mb-6">
-                <span className="w-2 h-2 rounded-full bg-[#FACC15] animate-pulse" />
-                Доступен для проектов
-              </span>
-
               <h2 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold text-white tracking-tight leading-none">
                 Игорь
                 <br />
@@ -223,8 +218,7 @@ export function AboutSection() {
                 <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
               </svg>
               <p className="text-white/80 text-sm sm:text-base lg:text-lg leading-relaxed pl-6 sm:pl-8 lg:pl-10">
-                Я не продаю абстрактные услуги — я решаю конкретные задачи через код и автоматизацию. Каждый проект —
-                это моя репутация.
+                Код, который не решает задачу, — это просто текст; настоящая ценность кода — в результате, который он создаёт
               </p>
               <div className="mt-3 sm:mt-4 pl-6 sm:pl-8 lg:pl-10">
                 <span className="text-[#FACC15] font-medium text-sm sm:text-base">Игорь Горетов</span>
