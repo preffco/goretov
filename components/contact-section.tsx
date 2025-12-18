@@ -51,7 +51,7 @@ export function ContactSection() {
               asChild
               className="w-full bg-[#FACC15] hover:bg-[#EAB308] text-black rounded-full font-medium h-11 sm:h-12 touch-manipulation"
             >
-              <Link href="https://t.me/goretov" target="_blank" rel="noopener noreferrer">
+              <Link href="https://t.me/aflerlyf3" target="_blank" rel="noopener noreferrer">
                 <MessageCircle className="mr-2 w-4 h-4 sm:w-5 sm:h-5" />
                 Написать в Telegram
               </Link>
@@ -70,7 +70,7 @@ export function ContactSection() {
               variant="outline"
               className="w-full border-black/20 hover:bg-black hover:text-white rounded-full bg-transparent text-black h-11 sm:h-12 touch-manipulation"
             >
-              <Link href="mailto:igor@goretov.dev">igor@goretov.dev</Link>
+              <Link href="mailto:igorone23@yandex.ru">igorone23@yandex.ru</Link>
             </Button>
           </div>
         </div>

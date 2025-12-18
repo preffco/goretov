@@ -14,7 +14,7 @@ export function Footer() {
           {/* Links - larger touch targets on mobile */}
           <div className="flex items-center gap-4 sm:gap-6">
             <Link
-              href="https://t.me/goretov"
+              href="https://t.me/aflerlyf3"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 -m-2 text-white/50 hover:text-[#FACC15] transition-colors touch-manipulation"

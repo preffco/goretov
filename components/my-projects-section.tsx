@@ -36,11 +36,11 @@ const myProjects = [
   },
   {
     number: "03",
-    name: "Creative Studio",
+    name: "NanoBanana & Suno",
     description: "Бот для создания изображений и музыки через AI. Объединяет API Nanobanana и Suno для генерации и редактирования изображений, создания музыки с текстом по описанию прямо в Telegram",
     features: ["Генерация изображений", "Редактирование изображений", "Создание музыки по описанию", "Музыка с текстом", "Интеграция Nanobanana & Suno"],
     status: "В разработке",
-    link: "https://t.me/SupportBot",
+    link: "https://t.me/NanoBananaTOP_bot",
     color: "bg-[#3B82F6]",
   },
 ]
@@ -141,7 +141,7 @@ export function MyProjectsSection() {
                         variant="outline"
                         className="w-full border-white/20 text-white hover:bg-white/10 bg-transparent rounded-full h-11 sm:h-12 touch-manipulation"
                       >
-                        Открыть бота
+                        Посмотреть бота
                         <ExternalLink className="ml-2 w-4 h-4" />
                       </Button>
                     </DialogTrigger>
