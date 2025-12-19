@@ -241,7 +241,7 @@ export function HeroSection() {
           </div>
 
           <div className="mb-6 min-h-[80px] sm:min-h-[120px] lg:min-h-[160px]">
-            <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold tracking-tight leading-[1.1]">
+            <h1 className="text-2xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold tracking-tight leading-[1.1] whitespace-nowrap inline-block">
               <span className="hero-gradient-text">{displayedText}</span>
               <span className="text-[#FACC15] animate-pulse">_</span>
             </h1>

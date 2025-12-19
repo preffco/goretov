@@ -250,3 +250,48 @@
 section {
   contain: layout style;
 }
+
+/* Performance optimizations for weak devices */
+@media (max-width: 768px) {
+  /* Reduce animations on mobile */
+  .animate-float,
+  .animate-glow {
+    animation-duration: 8s !important;
+  }
+  
+  /* Optimize rendering */
+  * {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+/* Content visibility for better performance */
+@supports (content-visibility: auto) {
+  section:not(:target) {
+    content-visibility: auto;
+    contain-intrinsic-size: auto 500px;
+  }
+}
+
+/* Optimize font loading */
+@font-face {
+  font-display: swap;
+}
+
+/* Reduce repaints on scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+/* Image optimization hints */
+img {
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+}

@@ -174,6 +174,8 @@ export function MyProjectsSection() {
                                         fill
                                         className="object-contain rounded-lg"
                                         sizes="280px"
+                                        loading="lazy"
+                                        quality={85}
                                       />
                                     </div>
                                   </div>
@@ -196,6 +198,8 @@ export function MyProjectsSection() {
                                   fill
                                   className="object-contain rounded-lg"
                                   sizes="(min-width: 1280px) 350px, 300px"
+                                  loading="lazy"
+                                  quality={85}
                                 />
                               </div>
                             </div>
@@ -257,6 +261,8 @@ export function MyProjectsSection() {
                                         fill
                                         className="object-contain rounded-lg"
                                         sizes="280px"
+                                        loading="lazy"
+                                        quality={85}
                                       />
                                     </div>
                                   </div>
@@ -279,6 +285,8 @@ export function MyProjectsSection() {
                                   fill
                                   className="object-contain rounded-lg"
                                   sizes="(min-width: 1280px) 350px, 300px"
+                                  loading="lazy"
+                                  quality={85}
                                 />
                               </div>
                             </div>
