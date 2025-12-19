@@ -53,7 +53,7 @@ export function ServicesSection() {
             <h2 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold text-black tracking-tight">
               Какие задачи
               <br />
-              <span className="text-black/20">мы решаем</span>
+              <span className="text-black/20">я решаю</span>
             </h2>
             <p className="text-black/50 text-lg max-w-md lg:text-right">
               От идеи до работающего продукта — полный цикл разработки
